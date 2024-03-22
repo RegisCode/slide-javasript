@@ -4,3 +4,4 @@ const slide = new Slide('.slide', '.slide-wrapper'); // Ajuste aqui para '.slide
 slide.init();
 
 slide.changeSlide(2);
+slide.activeNextSlide();
